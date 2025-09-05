@@ -30,9 +30,9 @@ RUN apt-get update && apt-get install -y \
 
 
 # Install Google Chrome
-RUN wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
-    apt-get install -y ./google-chrome-stable_current_amd64.deb && \
-    rm google-chrome-stable_current_amd64.deb
+#RUN wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
+#    apt-get install -y ./google-chrome-stable_current_amd64.deb && \
+#    rm google-chrome-stable_current_amd64.deb
 
 # Install Chromedriver (compatible with installed Chrome)
 # RUN CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d '.' -f 1) && \
@@ -43,8 +43,8 @@ RUN wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd6
 #    chmod +x /usr/bin/chromedriver && \
 #    rm chromedriver_linux64.zip
 
-COPY app/drivers/chromedriver  /usr/bin/chromedriver
-RUN chmod +x /usr/bin/chromedriver
+#COPY app/drivers/chromedriver  /usr/bin/chromedriver
+#RUN chmod +x /usr/bin/chromedriver
 
 # Set environment variables
 ENV PATH="/usr/bin:${PATH}"
@@ -56,6 +56,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy your app code
 COPY . /app
 WORKDIR /app
+
+ENV PYTHONPATH=/app
 
 # Expose port and run the app
 EXPOSE 3000
