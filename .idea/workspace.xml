@@ -41,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.RestAPI_PDFgenerator.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SSpada/ARC Advisory Group/Product Development - Documents/PythonProjects/PrintJob_Docker(ZipFile)(Chrome)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.RestAPI_PDFgenerator.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/SSpada/ARC Advisory Group/Product Development - Documents/PythonProjects/PrintJob_Docker(ZipFile)(PBIRestAPI)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="RestAPI_PDFgenerator" type="PythonConfigurationType" factoryName="Python">
       <module name="PrintJob_Docker(ZipFile)(PBIRestAPI)" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757698966552</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added PRINT button to solve the issues of automatically restarting after zip upload.&#10;Calculated remaining pages in BATCH.  When near the end of a print it was not reporting the correct number of pages.">
+      <option name="closed" value="true" />
+      <created>1757699885403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757699885403</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
