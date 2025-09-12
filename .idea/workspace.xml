@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219bc22-af88-42a0-b50e-3aa751da0ba6" name="Changes" comment="Block PRocessing of the PrintJob.  1st release.  Currently trialing best block size.">
+    <list default="true" id="d219bc22-af88-42a0-b50e-3aa751da0ba6" name="Changes" comment="added PRINT button to solve the issues of automatically restarting after zip upload.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app" beforeDir="false" afterPath="$PROJECT_DIR$/app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/Batch_Print.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Batch_Print.py" afterDir="false" />
     </list>
@@ -105,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757091158007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added PRINT button to solve the issues of automatically restarting after zip upload.">
+      <option name="closed" value="true" />
+      <created>1757696811189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757696811189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -135,7 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Block PRocessing of the PrintJob.  1st release.  Currently trialing best block size." />
-    <option name="LAST_COMMIT_MESSAGE" value="Block PRocessing of the PrintJob.  1st release.  Currently trialing best block size." />
+    <MESSAGE value="added PRINT button to solve the issues of automatically restarting after zip upload." />
+    <option name="LAST_COMMIT_MESSAGE" value="added PRINT button to solve the issues of automatically restarting after zip upload." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
