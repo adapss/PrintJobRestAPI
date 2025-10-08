@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219bc22-af88-42a0-b50e-3aa751da0ba6" name="Changes" comment="added PRINT button to solve the issues of automatically restarting after zip upload.&#10;Calculated remaining pages in BATCH.  When near the end of a print it was not reporting the correct number of pages." />
+    <list default="true" id="d219bc22-af88-42a0-b50e-3aa751da0ba6" name="Changes" comment="added PRINT button to solve the issues of automatically restarting after zip upload.&#10;Calculated remaining pages in BATCH.  When near the end of a print it was not reporting the correct number of pages.">
+      <change afterPath="$PROJECT_DIR$/app/myPrintJobPackages/PBI_ResourceManagement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/myPrintJobPackages/PBI_WorkspaceUtilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/Gen2_Capacity_Mgmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/Gen2_DataModel_Mgmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/Gen2_PrintBatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/Batch_Print.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Batch_Print.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,15 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.RestAPI_PDFgenerator.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SSpada/ARC Advisory Group/Product Development - Documents/PythonProjects/PrintJob_Docker(ZipFile)(PBIRestAPI)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.RestAPI_PDFgenerator.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/SSpada/ARC Advisory Group/Product Development - Documents/PythonProjects/PrintJob_Docker(ZipFile)(PBIRestAPI)/app/pages",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PrintJob_Docker(ZipFile)(PBIRestAPI)" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PrintJob_Docker(ZipFile)(PBIRestAPI)" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SSpada\ARC Advisory Group\Product Development - Documents\PythonProjects\PrintJob_Docker(ZipFile)(PBIRestAPI)\app\pages" />
+      <recent name="C:\Users\SSpada\ARC Advisory Group\Product Development - Documents\PythonProjects\PrintJob_Docker(ZipFile)(PBIRestAPI)\app\myPrintJobPackages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="RestAPI_PDFgenerator" type="PythonConfigurationType" factoryName="Python">
       <module name="PrintJob_Docker(ZipFile)(PBIRestAPI)" />
@@ -203,13 +228,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py</url>
-          <line>164</line>
-          <option name="timeStamp" value="4" />
+          <line>369</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py</url>
-          <line>543</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/app/pages/Gen2_DataModel_Mgmt.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
