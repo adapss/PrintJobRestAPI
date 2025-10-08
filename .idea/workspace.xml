@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219bc22-af88-42a0-b50e-3aa751da0ba6" name="Changes" comment="added PRINT button to solve the issues of automatically restarting after zip upload.&#10;Calculated remaining pages in BATCH.  When near the end of a print it was not reporting the correct number of pages.">
-      <change afterPath="$PROJECT_DIR$/app/myPrintJobPackages/PBI_ResourceManagement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/myPrintJobPackages/PBI_WorkspaceUtilities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/Gen2_Capacity_Mgmt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/Gen2_DataModel_Mgmt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/Gen2_PrintBatch.py" afterDir="false" />
+    <list default="true" id="d219bc22-af88-42a0-b50e-3aa751da0ba6" name="Changes" comment="Gen2 implementation rolled out.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/Batch_Print.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Batch_Print.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/Batch_Print.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/Gen2_Capacity_Mgmt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/Gen2_DataModel_Mgmt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/Gen2_PrintBatch.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757707130428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Gen2 implementation rolled out.">
+      <option name="closed" value="true" />
+      <created>1759939720145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759939720145</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -221,16 +225,12 @@
     <MESSAGE value="Block PRocessing of the PrintJob.  1st release.  Currently trialing best block size." />
     <MESSAGE value="added PRINT button to solve the issues of automatically restarting after zip upload." />
     <MESSAGE value="added PRINT button to solve the issues of automatically restarting after zip upload.&#10;Calculated remaining pages in BATCH.  When near the end of a print it was not reporting the correct number of pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="added PRINT button to solve the issues of automatically restarting after zip upload.&#10;Calculated remaining pages in BATCH.  When near the end of a print it was not reporting the correct number of pages." />
+    <MESSAGE value="Gen2 implementation rolled out." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gen2 implementation rolled out." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/myPrintJobPackages/Pdf_Generator.py</url>
-          <line>369</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app/pages/Gen2_DataModel_Mgmt.py</url>
           <line>119</line>
