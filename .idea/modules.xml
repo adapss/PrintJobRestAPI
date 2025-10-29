@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PrintJob_Docker(ZipFile)(PBIRestAPI).iml" filepath="$PROJECT_DIR$/.idea/PrintJob_Docker(ZipFile)(PBIRestAPI).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CountryModel_Container.iml" filepath="$PROJECT_DIR$/.idea/CountryModel_Container.iml" />
     </modules>
   </component>
 </project>
